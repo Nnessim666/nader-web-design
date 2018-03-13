@@ -11,11 +11,14 @@
 	<style type="text/css">
 		#nav {
 			background-image: url(https://i.ytimg.com/vi/9Mh0KHEtNPE/maxresdefault.jpg);
+			width: 200px;
+			height: 300px;
+			
 
 		}
 
 		#left-sidebar {
-			background-color: red;
+			background-color: #ADD8E6;
 			font-size: 14;
 
 		}
@@ -25,7 +28,8 @@
 		}
 
 		#right-sidebar {
-			background-color: pink;
+			background-color: #ADD8E6;
+			padding-right: 5px;
 		}
 
 		#footer {
@@ -48,57 +52,128 @@
 			border: 2px solid blue;
 			background-color: white;
 		}
+		.postrow {
+			box-sizing: border-box; 
+			border-color: solid blue;
+
+		}
+
+		.likecommentshare {
+			display: inline-block;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		#games {
+			resize: 50px;
+		}
+
+		#nav {
+			background-image: url(https://i.ytimg.com/vi/9Mh0KHEtNPE/maxresdefault.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 500px;
+			width: 102%;
+		}
+		.right-sidebar-pic{
+			width: 100%;
+			height: 500px;
+
+		}
 	</style>
 </head>
 <body>
-	<div class="container-fluid">
-		<div id="nav" class="row" class="col-12">
-			<img src="https://i.ytimg.com/vi/9Mh0KHEtNPE/maxresdefault.jpg"><font color='blue'>Actvf twitter</font>
-		</div>
-
-		<div id="main-content" class="row">
-			<div id="left-sidebar" class="col-3">
-				<img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/2000px-Pi-symbol.svg.png">
-				<p>Cary Riina</p>
-				<p>math teacher at actvf</p>
-				<p>apcsp teacher</p>
+	<div>
+		<div class="container-fluid">
+			<div id="nav" class="row">
 			</div>
-			<div id="center" class="col-6">
-				<div class="postrow">
-					<div class="img-side">
-					</div>
-					<div class="text-side">
-						<img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/2000px-Pi-symbol.svg.png">
-						<p>Cary @caryBADA55 - 3/6/18</p>
-						<p>hey Rob My computer science students are doing good webdesigns</p>
-					</div>
+
+			<div id="main-content" class="row">
+				<div id="left-sidebar" class="col-3">
+					<img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/2000px-Pi-symbol.svg.png">
+					<p>Cary Riina</p>
+					<p>math teacher at actvf</p>
+					<p>apcsp teacher</p>
+
 				</div>
-				<div class="postrow">
-					<div class="col-3 img-side">
-						<img class="post-image" src="http://www.cristianosgays.com/wp-content/uploads/2018/03/104466932-PE_Color.240x240.jpg">
-						<p>Donald trump @preidentoftheworld - 3/7/18</p>
-						<p>Your students suck cary making bad comments about me in coding 😡</p>
+				<div id="center" class="col-6">
+					<div class="postrow">
+						<div class="img-side">
+						</div>
+						<div class="text-side">
+							<img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/2000px-Pi-symbol.svg.png">
+							<p>Cary @caryBADA55 - 3/6/18</p>
+							<p>hey Rob My computer science students are doing good webdesigns</p>
+						<ul>
+							<li class="likecommentshare">❤️</li>
+							<li class="likecommentshare">comment</li>
+							<li class="likecommentshare">share</li>
+						</ul>
+						</div>
 					</div>
-					<div class="col-3 text-side">
+
+
+					<div class="postrow">
+						<div class="col-3 img-side">
+							<img class="post-image" src="http://www.cristianosgays.com/wp-content/uploads/2018/03/104466932-PE_Color.240x240.jpg">
+						</div>
+						<div class="text-side">
+							<p>Donald trump @preidentoftheworld - 3/7/18</p>
+							<p>Your students suck cary making bad comments about me in coding 😡</p>
+						<ul>
+							<li class="likecommentshare">❤️</li>
+							<li class="likecommentshare">comment</li>
+							<li class="likecommentshare">share</li>
+						</ul>
+						</div>
+						<div class="col-3 text-side">
+						</div>
 					</div>
-				</div>
-				<div>
 					<div class="postrow">
 						<div class="col-3 img-side">
 							<img class="post-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png">
+						</div>
+					<div class="text-side">
 							<p>Rob @rob - 3/7/18</p>
 							<p>shut up donald go back to russia where you have fans 😡</p>
+					<ul>
+						<li class="likecommentshare">❤️</li>
+						<li class="likecommentshare">comment</li>
+						<li class="likecommentshare">share</li>
+					</ul>
 					</div>
+					</div>
+					<div id="center" class="col-6">
+					<div class="postrow">
+						<img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/2000px-Pi-symbol.svg.png">
+						<p>Cary @caryBADA55 - 3/6/18</p>
+						<p>hey donald you say my students suck well my students created this game now you can shut up go back to your game fighting korea</p>
+					
+					<div class="col-3 img-side">
+						<div id="games" >
+							<script src="https://cdn.htmlgames.com/embed.js?game=GlowSolitaire&amp;width=800&amp;height=480&amp;bgcolor=white"></script><a href="https://cdn.htmlgames.com/GlowSolitaire/" target="_blank"><img src="https://cdn.htmlgames.com/GlowSolitaire/img/icon/image-300x200.jpg"></a>
+						</div>
+
+					<ul>
+						<li class="likecommentshare">❤️</li>
+						<li class="likecommentshare">comment</li>
+						<li class="likecommentshare">share</li>
+					</ul>
+						
+					</div>
+					</div>
+				</div>
+				<div>
+				<div id="left-sidebar" >
+				<img class="right-sidebar-pic" src="https://i.ytimg.com/vi/wGB1aLDR2Es/maxresdefault.jpg">	
+				</div>
+				</div>
 			</div>
-			<div id="right-sidebar">
-				<p>This is my right-sidebar</p>
+			</div>
+			<div id="footer" class="row">
+				<p>This is my footbar</p>
 			</div>
 		</div>
-		</div>
-		<div id="footer" class="row">
-			<p>This is my footbar</p>
-		</div>
-	</div>
+</div>
 
 </body>
 </html>
